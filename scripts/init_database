@@ -1,0 +1,12 @@
+/* 
+brand new script no issue with droping databases 
+*/
+
+-- create Database
+Create Database Datawarehouse;
+use datawarehouse;
+
+-- Create Schema
+Create schema bronze;
+Create schema silver;
+Create schema gold;
